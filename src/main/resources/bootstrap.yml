@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: eurekaServer
+  cloud:
+    config:
+      uri: http://cs:8888
+      #uri: http://localhost:8888
+    loadbalancer:
+      ribbon:
+        enabled: false
